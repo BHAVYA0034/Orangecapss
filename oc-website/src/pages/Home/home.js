@@ -14,7 +14,7 @@ function home() {
       <div className="Title">
 
         <img id="logoimage" src={ Img } alt="" />
-        <p className="logo-name">ORANGE CAPS</p>
+        <p className="logo-name">ORANGE-CAPS</p>
 
         <div className="container">
 
