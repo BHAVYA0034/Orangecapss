@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import TweetEmbed from 'react-tweet-embed'
+// import TweetEmbed from 'react-tweet-embed'
 import "./mainfooter.css"
 import { IconButton } from "@mui/material";
 import { Button } from '@mui/material'
@@ -71,7 +71,7 @@ function Mainfooteter() {
             </ul>
           </li>
           <li>
-            <TweetEmbed id="1461668048037838859" />
+            {/* <TweetEmbed id="1461668048037838859" /> */}
           </li>
         </ul>
         <div className="b-footer">
