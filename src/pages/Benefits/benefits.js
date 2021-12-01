@@ -2,11 +2,11 @@ import React from 'react'
 import "./benefits.css"
 import Logo from '../../asserts/Logo-footer.png'
 import Discord from '../../asserts/discord.png'
-import OrangeCapsCard from '../../asserts/oc-front.svg'
-import OrangeCapsCard2 from '../../asserts/oc-back.svg'
-import OrangeCapsCardb from '../../asserts/oc-front-b.svg'
-import OrangeCapsCard2p from '../../asserts/oc-back-p.svg'
-import EarnImage from '../../asserts/undraw_Savings.png'
+import OrangeCapsCard from '../../asserts/OrangeCapCard1Front.svg'
+import OrangeCapsCard2 from '../../asserts/OrangeCapCard1Back.svg'
+import OrangeCapsCardb from '../../asserts/OrangeCapCard2Front.svg'
+import OrangeCapsCard2p from '../../asserts/OrangeCapCard2Back.svg'
+import EarnImage from '../../asserts/undraw_savings.svg'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import DoneIcon from '@mui/icons-material/Done';

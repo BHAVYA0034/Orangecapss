@@ -373,7 +373,7 @@ function Feedback() {
                       </CardContent>
                     </Card>
                   </div>
-                  <div>
+                  {/*<div>
                     <Card elevation={3} sx={{ borderRadius: 3 }}>
                       <CardHeader style={{ textAlign: "left" }}
                         avatar={
@@ -394,7 +394,7 @@ function Feedback() {
                         </Typography>
                       </CardContent>
                     </Card>
-                  </div>
+                  </div>*/}
                 </Masonry>
               </TableCell>
             </TableRow>

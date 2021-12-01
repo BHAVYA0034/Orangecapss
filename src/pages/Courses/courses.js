@@ -23,38 +23,43 @@ function courses() {
           <div className="offline">
           {/* <Button href="https://www.instagram.com/orangecaps__/" target="_blank"></Button> */}
             <Button className="button-redirect" href="https://docs.google.com/forms/d/1dWDAQQ1PtP8w5vww2B2XdH9Gog55nBhwZ1p4canJEoY/edit" target="_blank">
-              <div className="resin_art">
-              <img src={resinArt} alt="" />
+            <div className="resin_art">
+              <img id="coursesimg" src={resinArt} alt="" />
               <p className='course_name'>Resin Art</p>
               <p>₹ 2500/-</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
             </Button>
             <Button className="button-redirect" href="https://docs.google.com/forms/d/1ZcA7-jn_9eR4ahJo29kSO9WlD5vqSdCwBZ357llOr1Q/edit" target="_blank">              
               <div className="canvas_paint">
-                <img src={Canvas} alt="" />
+                <img id="coursesimg" src={Canvas} alt="" />
                 <p className='course_name'>Canvas Painting </p>
                 <p>₹ 3000/-</p>
+                <p id="participate"><button>Book now</button></p>
               </div>
             </Button>
             <Button className="button-redirect" href="https://docs.google.com/forms/d/1p8Q4E-l372SAO28IW_ps6npTviz3zdwwFAeVTZUy-xA/edit" target="_blank">              
               <div className="calligraphy">
-                <img src={Calligraphy} alt="" />
+                <img id="coursesimg" src={Calligraphy} alt="" />
                 <p className='course_name'>calligraphy </p>
                 <p>₹ 1500/-</p>
+                <p id="participate"><button>Book now</button></p>
               </div>
             </Button>
             <Button className="button-redirect" href="https://docs.google.com/forms/d/1kffX83g9NnWHSqPi7V86g6c-RGtEvPGlVmRpNZl19MA/edit" target="_blank">
               <div className="cooking">
-                <img src={Cooking} alt="" />
+                <img id="coursesimg" src={Cooking} alt="" style={{ height: '170px'}} />
                 <p className='course_name'>Cooking <br/> (45 dishes)</p>
                 <p>₹ 1500/-</p>
+                <p id="participate"><button>Book now</button></p>
               </div>
             </Button>
             <Button className="button-redirect" href="https://docs.google.com/forms/d/1foJJSxNiu_w6oFwwE-iwCnZ8K8OrgNImCtchwcIPneA/edit" target="_blank">              
               <div className="acting">
-                <img src={Acting} alt="" />
+                <img id="coursesimg" src={Acting} alt="" />
                 <p className='course_name'>Acting</p>
                 <p>₹ 550/-</p>
+                <p id="participate"><button>Book now</button></p>
               </div>
             </Button>
           </div>
@@ -81,16 +86,18 @@ function courses() {
             </div> */}
             <Button className="button-redirect" href="https://docs.google.com/forms/d/1uscZLv3KRxTZ7zA9tWfb6o-DFMzErxoe1dARZxQYq9A/edit" target="_blank">              
             <div className="graphic_design">
-              <img src={Graphic} alt="" />
+              <img id="coursesimg" src={Graphic} alt="" />
               <p className='course_name'>Graphic Designing</p>
               <p>₹700/-</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
             </Button>
             <Button className="button-redirect" href="https://docs.google.com/forms/d/1Hv-L2_CN5PAATkT6NtHMd_sW3XN44kOQCi3d4Qm8yIU/edit" target="_blank">              
             <div className="yoga">
-              <img src={Yoga} alt="" />
+              <img id="coursesimg" src={Yoga} alt="" />
               <p className='course_name'>Yoga</p>
               <p>₹500/-</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
             </Button>
             
