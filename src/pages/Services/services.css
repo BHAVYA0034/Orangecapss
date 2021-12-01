@@ -7,7 +7,6 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     display: block;
-    padding-bottom: 50px;
     margin: 50px 0;
 }
 
@@ -23,8 +22,11 @@
     flex-wrap: wrap;
 }
 
-img {
+#servicesimg {
     width: 200px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .car_washing,
@@ -38,11 +40,11 @@ img {
 .Carpet,
 .Mattress,
 .Sofa {
-    text-align: left;
-    border-left: 1px solid var(--color-black);
-    border-top: 1px solid var(--color-black);
-    box-shadow: 5px 5px 10px;
+    text-align: center;
+    border: 1px solid var(--color-black);
+    box-shadow: 2px 2px 10px;
     margin: 20px 20px;
+    border-radius: 10px;
 }
 
 .car_washing:hover,
@@ -56,5 +58,30 @@ img {
 .Carpet:hover,
 .Mattress:hover,
 .Sofa:hover {
-    box-shadow: 15px 15px 20px;
+    box-shadow: 5px 5px 20px;
+    transform: scale(1.1);
+}
+
+.car_washing button,
+.app_development button,
+.IT_consultancy button,
+.photography button,
+.web_development button,
+.graphic_designing button,
+.digital_marketing button,
+.Banner_making button,
+.Carpet button,
+.Mattress button,
+.Sofa button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #ff6600;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }

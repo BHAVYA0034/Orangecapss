@@ -22,75 +22,86 @@ function services() {
         <div className="service_container">
           <Button className="button-redirect" href="https://docs.google.com/forms/d/19y61eyWFImyMnM-H1nTk4sG9AbdAH4hZTzkedrIq0AQ/edit" target="_blank">                
             <div className="car_washing">
-              <img src={Car_wash} alt="" />
+              <img id="servicesimg" src={Car_wash} alt="" />
               <p>Car washing</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
           </Button>
           <Button className="button-redirect" href="https://docs.google.com/forms/d/1MpVF7eWhKF39TbyoDEwzzPWKd--WiR1ZfkIl9oKPNzs/edit" target="_blank">              
             <div className="app_development">
-              <img src={App_dev} alt="" />
+              <img id="servicesimg" src={App_dev} alt="" />
               <p>App development</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
             {/*  */}
           </Button>
           <Button className="button-redirect" href="https://docs.google.com/forms/d/1egPB2IPskBWm8hOEL__UGo6lPFMYes3hnhi7wo-H-28/edit" target="_blank">              
             <div className="IT_consultancy">
-              <img src={IT_consultancy} alt="" />
+              <img id="servicesimg" src={IT_consultancy} alt="" />
               <p>IT consultancy</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
             {/*  */}
           </Button>
           <Button className="button-redirect" href="https://docs.google.com/forms/d/1ct3t9hweAhGTyLrC6aIwvSzKKLCNm0z_7D_OwMuPUHM/edit" target="_blank">              
             <div className="photography">
-              <img src={Photography} alt="" />
+              <img id="servicesimg" src={Photography} alt="" />
               <p>Photography</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
             {/*  */}
           </Button>
           <Button className="button-redirect" href="https://docs.google.com/forms/d/1LvZEPojeu7SCnvphcPzd-DykGT1U04KSMGNsIUh-xEo/edit" target="_blank">              
             <div className="web_development">
-              <img src={Web_dev} alt="" />
+              <img id="servicesimg" src={Web_dev} alt="" />
               <p>Web development</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
             {/*  */}
           </Button>
           <Button className="button-redirect" href="https://docs.google.com/forms/d/1uscZLv3KRxTZ7zA9tWfb6o-DFMzErxoe1dARZxQYq9A/edit" target="_blank">              
             <div className="graphic_designing">
-              <img src={Graphic_design} alt="" />
+              <img id="servicesimg" src={Graphic_design} alt="" />
               <p>Graphic designing</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
           </Button>
           <Button className="button-redirect" href="https://docs.google.com/forms/d/1r968jsAWPwpOAMviznZRbU_bK9NkjnhHoNr6whome3c/edit" target="_blank">              
             <div className="digital_marketing">
-              <img src={Digital_market} alt="" />
+              <img id="servicesimg" src={Digital_market} alt="" />
               <p>Digital marketing</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
             {/*  */}
           </Button>
           <Button className="button-redirect" href="https://docs.google.com/forms/d/1vHM7JtMX91iVIdU7xAPa_H6FJ16xy7DPG1McUAAeSeQ/viewform?edit_requested=true" target="_blank">              
             <div className="Banner_making">
-              <img src={Banner} alt="" />
+              <img id="servicesimg" src={Banner} alt="" />
               <p>Make your Banner</p>
+              <p id="participate"><button>Book now</button></p>
               {/*  */}
             </div>
           </Button>
           <Button className="button-redirect" href="https://docs.google.com/forms/d/1foJJSxNiu_w6oFwwE-iwCnZ8K8OrgNImCtchwcIPneA/edit" target="_blank">              
             <div className="Carpet">
-            <img src={Carpet} alt="" />
+              <img id="servicesimg" src={Carpet} alt="" />
               <p>Carpet Cleaning</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
           </Button>
           <Button className="button-redirect" href="https://docs.google.com/forms/d/1iMw6A8p7VdsGJYdXP14Uy733z-P0zZC5JhhbzTrr9RM/edit" target="_blank">              
             <div className="Mattress">
-            <img src={Mattress} alt="" />
+              <img id="servicesimg" src={Mattress} alt="" />
               <p>Mattress cleaning</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
             {/*  */}
           </Button>
           <Button className="button-redirect" href="https://docs.google.com/forms/d/1PdQkCzH26TWn8BrN-BAR2KETPGKLbWxxD5vp42Wgxz8/edit" target="_blank">              
             <div className="Sofa">
-            <img src={Sofa} alt="" />
+              <img id="servicesimg" src={Sofa} alt="" />
               <p>Sofa cleaning</p>
+              <p id="participate"><button>Book now</button></p>
             </div>
             {/*  */}
           </Button>

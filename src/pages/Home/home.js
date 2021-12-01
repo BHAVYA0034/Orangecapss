@@ -27,16 +27,11 @@ function home() {
               Boost your confidence and seperate yourself from crowd of thousands.
             </p> */}
             <div className="description">
-              The color orange depicts CREATIVITY C-CAPABILITY ,
-              A-ABILITY , P-PASSIVE INCOME , S-SKILLS. We are a growing company
-              in Education and Marketing Field. We provide several courses on our website. Once they complete the course we’ll give them live
-              projects through which we’ll get to know how much they’ve learned. After the
-              completion of the course, we’ll provide them certificates of completion of the
-              course.We also have several services like car washing,
-              photography and many more people can book for at an affordable rates. Not only this, 
-              several events like cooking competitions, Squid games, DJ party, etc. are in queue. In
-              future, we’re planning to collaborate with more companies through which our
-              customers can avail maximum benefits.
+              A platform where you join the courses as well as  
+              create and sell your own course, webinars, services, events, live projects. 
+              Upgrade your knowledge, skills and income with orangecaps. 
+              We are planning collaborate with 100+ companies in future 
+              to help you with interships and practical knowledge
             </div>
           </div>
 
