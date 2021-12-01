@@ -22,7 +22,7 @@ function courses() {
         <div className='online_mode'>Offline Courses</div>
           <div className="offline">
           {/* <Button href="https://www.instagram.com/orangecaps__/" target="_blank"></Button> */}
-            <Button className="button-redirect" href="https://docs.google.com/forms/d/1dWDAQQ1PtP8w5vww2B2XdH9Gog55nBhwZ1p4canJEoY/edit" target="_blank">
+            <Button className="button-redirect" href="https://docs.google.com/forms/d/1LTVOFfCESSDEGn75PUNYP4kMH49KYx_5uPNkrs1hiRQ/edit" target="_blank">
             <div className="resin_art">
               <img id="coursesimg" src={resinArt} alt="" />
               <p className='course_name'>Resin Art</p>
