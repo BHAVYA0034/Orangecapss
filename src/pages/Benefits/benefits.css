@@ -9,10 +9,10 @@
     content: '';
     position: absolute;
     width: 20px;
-    height: 60px;
+    height: 50px;
     left: 10%;
-    top: 13%;
-    background-color: #ff6600;
+    top: 7%;
+    background-color: #ff8533;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     z-index: 1;
@@ -22,10 +22,10 @@
     content: '';
     position: absolute;
     width: 20px;
-    height: 60px;
-    left: 90%;
-    top: 13%;
-    background-color: #ff6600;
+    height: 50px;
+    left: 85%;
+    top: 7%;
+    background-color: #ff8533;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     z-index: 1;

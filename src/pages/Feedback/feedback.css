@@ -5,3 +5,11 @@
 #reviews {
     filter: blur(5px);
 }
+
+#nameform {
+    box-shadow: none;
+}
+
+#nameform:hover {
+    box-shadow: none;
+}

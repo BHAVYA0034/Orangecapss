@@ -1,5 +1,6 @@
 import React from 'react'
 import "./benefits.css"
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Logo from '../../asserts/Logo-footer.png'
 import Discord from '../../asserts/discord.png'
 import OrangeCapsCard from '../../asserts/OrangeCapCard1Front.svg'
@@ -27,7 +28,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
+import { Button } from 'react-bootstrap';
 import ButtonBase from '@mui/material/ButtonBase';
 import CourseImg from "../../asserts/courses.jpg"
 import ServiceImg from "../../asserts/services.png"
