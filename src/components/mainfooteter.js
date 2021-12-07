@@ -19,9 +19,9 @@ function Mainfooteter() {
           </h1>
           <p>
             We believe in building upon the Skills and 
-            hence our tagline is Let’s communicate with your skills.
+            hence our tagline is <b>Let’s communicate with your skills</b>.
             We are a growing company in Education and Marketing Field. 
-            We provide several courses on our website for those who want to learn.
+            We provide a platform where you can earn and learn simultaneously.
           </p>
           <div>
             <IconButton className="sociallinks">
@@ -42,16 +42,16 @@ function Mainfooteter() {
                 <br/>
               <li>
                 {/* <a href="/contact">Contact</a> */}
-                <NavLink className="short_links" to="/contact"> Contact </NavLink>
+                <NavLink className="short_links" to="/" href="#contactUs" target="_parent"> Contact </NavLink>
               </li>
               <br/>
               <li>
                 {/* <a href="#">About</a> */}
-                <NavLink className="short_links" to="/team"> About </NavLink>
+                <NavLink className="short_links" to="/team" target="_top"> About </NavLink>
               </li>
               <br/>
               <li>
-                <NavLink className="short_links" to="/blogs"> Blogs </NavLink>
+                <NavLink className="short_links" to="/blogs" target="_top"> Blogs </NavLink>
               </li>
               <br/>
             </ul>

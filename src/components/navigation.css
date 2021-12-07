@@ -5,31 +5,12 @@
     --color-white: #fff;
 }
 
-.navigation {
-    background-color: var(--color-orange);
-}
-
-.navMenu {
-    padding: 15px 0;
-}
-
-.is-active {
-    font-weight: bold;
-}
-
-.link {
-    color: var(--color-white);
-    text-decoration: none;
-    padding: 0 1.5%;
-    font-size: 20px;
-}
-
-.link:hover {
-    color: #fff;
-}
-
 .navbar {
     background-color: #ff8533;
+}
+
+.container {
+    padding: 0;
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -37,23 +18,23 @@
     justify-content: space-evenly;
 }
 
-.nav-item {
-    font-size: larger;
-}
-
-.nav-link {
+.link:hover {
+    color: white;
     font-weight: 600;
+    font-size: 20px;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: 2px;
-    text-decoration-color: #24262b;
-    transition: all 0.3s ease-in-out;
-    z-index: -1;
-}
+@media only screen and (max-width: 400px) {
 
-.navbar>.container-fluid {
-    justify-content: end;
+    .container {
+        flex-direction: row;
+    }
+
+    .navbar-brand {
+        margin-left: 5%;
+    }
+
+    .navbar-toggler {
+        margin-right: 5%;
+    }
 }
