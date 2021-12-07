@@ -151,11 +151,11 @@ function Feedback() {
                   <Divider />
                   <form noValidate autoComplete="off" onSubmit={handleOnSubmit} sx={{ mx: 5, mt: 2 }}>
                     <TextField
-                      id="name"
+                      id="nameform"
                       //onChange={(e) => setTitle(e.target.value)}
                       onChange={handleOnChange}
                       label="Name:"
-                      sx={{ mt: 5, width: "90%" }}
+                      sx={{ mt: 5, width: "90%", textAlign: 'left' }}
                       required
                       name="_name"
                       value={inputs.name}
@@ -170,7 +170,7 @@ function Feedback() {
                       name="message"
                       multiline
                       rows={4}
-                      sx={{ width: "90%" }}
+                      sx={{ width: "90%", marginBottom: '10%' }}
                       required
                       value={inputs.feedbackmsg}
                     //error={feedbackError}

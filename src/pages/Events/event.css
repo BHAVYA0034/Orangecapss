@@ -6,7 +6,7 @@
     margin: 0 auto;
     width: 100%;
     height: 500px;
-    background-image: linear-gradient( rgb(255, 102, 0) , rgb(41, 41, 62));
+    background-image: linear-gradient( rgb(255, 133, 51) , rgb(41, 41, 62));
 }
 
 #comingsoon {
@@ -135,6 +135,7 @@ h4 {
         margin-left: 5%;
         padding-top: 15%;
         margin-bottom: 8%;
+        line-height: 1.5;
     }
 
     hr {
@@ -144,5 +145,6 @@ h4 {
     h4 {
         font-size: 20px;
         margin-top: 8%;
+        line-height: 2;
     }
 }
