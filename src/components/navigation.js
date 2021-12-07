@@ -7,6 +7,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 function Navigation() {
 
   return (
@@ -23,7 +24,7 @@ function Navigation() {
         </div>
       </div>*/}
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      {/*<nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,7 +42,7 @@ function Navigation() {
               </li>
               {/*<li class="nav-item">
                 <a class="nav-link active" href="/contact" tabindex="-1" aria-disabled="true">Contact</a>
-              </li>*/}
+              </li>
               <li class="nav-item">
                 <NavLink className="link" activeClassName="is-active" to="/blogs"> Blogs </NavLink>
               </li>
@@ -51,8 +52,24 @@ function Navigation() {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav>*/}
 
+      <Navbar collapseOnSelect expand="lg" variant="dark">
+        <Container>
+        <Navbar.Brand href="#home">Orange-CAPS</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <NavLink className="link" activeClassName="is-active" to="/" exact> Home </NavLink>
+            <NavLink className="link" activeClassName="is-active" to="/benefits"> Benefits </NavLink>
+            <NavLink className="link" activeClassName="is-active" to="/events"> Events </NavLink>
+            <NavLink className="link" activeClassName="is-active" to="/blogs"> Blogs </NavLink>
+            <NavLink className="link" activeClassName="is-active" to="/feedback"> Feedback </NavLink>
+          </Nav>
+        </Navbar.Collapse>
+        </Container>
+      </Navbar>
+      
       {/* <div>
         <img src={ Img } alt="" />
         <p className="logo-name">ORANGE CAPS</p>
